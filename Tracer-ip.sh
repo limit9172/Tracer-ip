@@ -1,4 +1,15 @@
 clear
+BLACK='\033[30m'
+RED='\033[31m'
+GREEN='\033[32m'
+YELLOW='\033[33m'
+CYAN='\033[34m'
+MAGENTA='\033[35m'
+BLUE='\033[36m'
+WHITE='\033[37m'
+RESET='\033[0m'
+
+
 toilet -f slant -F border --gay "Tracer IP" | lolcat
            echo -e "${GREEN}"
            read -p "Masukkan IP yang mau di tracer => " ip_address
